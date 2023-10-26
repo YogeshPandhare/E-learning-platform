@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="bootstrap-3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-3.3/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#primary-menu" data-toggle="collapse">
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+            </button>
+            <div class="navbar-brand">
+              <a href="index.html" style="text-decoration:none;">Edureka!</a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="primary-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="ourstory.html">Our Story</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="login.html">Sign up</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Not yet registered?</h3><hr>
+                <h3>Sign Up</h3><hr>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Enter your name..." class="form-control"></input>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-6">
+                          <input
+                            type="email"
+                            placeholder="Your Email"
+                            class="form-control"
+                          />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label"
+                          >Password</label
+                        >
+                        <div class="col-sm-6">
+                          <input
+                            type="password"
+                            placeholder="Password"
+                            class="form-control"
+                          />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label"
+                          >Confirm</label
+                        >
+                        <div class="col-sm-6">
+                          <input
+                            type="password"
+                            placeholder="Confirm Password"
+                            class="form-control"
+                          />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Skills" class="col-sm-2 control-label">Positions</label>
+          
+                        <div class="col-sm-10">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="option1" />Web Developer
+                          </label>
+          
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="option1" />Data Scientist
+                          </label>
+          
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="option1" />Beginer
+                          </label>
+          
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="option1" />Geek who do all the shits
+                          </label>
+                          
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-6">
+                          <button type="submit" class="btn btn-primary">Lets Go</button>
+                          <button type="reset" class="btn btn-success">Reset</button>
+                        </div>
+                     </div>
+                  
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Already have an Account</h3><hr>
+                <h3>Log in</h3><hr>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="username" class="control-label col-sm-2">Username</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Username or Email...">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="loginpassword" class="control-label col-sm-2">Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" placeholder="enter your password" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-6">
+                          <button type="submit" class="btn btn-primary">Log In</button>
+                          <button type="reset" class="btn btn-success">Reset</button>
+                        </div>
+                     </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <div class="text-center">
+          Copyright &copy; 2022 Brain4ace Education pvt. limited All rights reserved.
+          <a data-toggle="modal" href='#modal-id'>Terms and Conditions</a>
+        </div>
+    
+        <div class="modal fade" id="modal-id">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h2 class="modal-title">Terms and Conditions</h2>
+              </div>
+              <div class="modal-body">
+                <p>We are the team of tech enthusiasts who are determined to make learning easy for everyone.At edureka we
+                  believe in awesome work, to make sure we provide great learning experience to our users.</p>
+                <p>
+                  Learning is meant to be an enjoyable activity and we put our best to turn it into that if you think the
+                  same come <a href="#">join us</a>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </footer>
+    
+
+    <script src="jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-3.3/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="bootstrap-3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-3.3/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <style>
+        body{
+            margin-top: 70px;
+        }
+        #map-container{
+          height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#primary-menu" data-toggle="collapse">
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+            </button>
+            <div class="navbar-brand">
+              <a href="index.html" style="text-decoration:none;">Edureka!</a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="primary-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="ourstory.html">Our Story</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="login.html">Sign up</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <h2>We Are Here</h2><br>
+      <div id="map-container">
+
+      </div>
+      
+    </div>
+
+    <br/><br/><br/>
+    <div class="container">    
+       <div class="row">
+          <div class="col-md-12">
+           
+              <h2>Contact Form</h2><hr/>
+              <form class="form-horizontal">
+                 <div class="form-group">
+                   <label for="name" class="col-sm-2 control-label">Name</label>
+                     <div class="col-sm-4">
+                     <input type="text" class="form-control" placeholder="Enter your name ..."/>
+                     </div>
+                 </div>  
+                  
+                  <div class="form-group">
+                   <label for="email" class="col-sm-2 control-label">Email</label>
+                     <div class="col-sm-4">
+                     <input type="email" class="form-control" placeholder="Enter your email ..."/>
+                     </div>
+                 </div>   
+                   
+                  <div class="form-group">
+                   <label for="message" class="col-sm-2 control-label">Message</label>
+                     <div class="col-sm-4">
+                     <textarea class="form-control" rows="4" placeholder="Enter your message ..."></textarea>
+                     </div>
+                 </div>
+                  
+                  <div class="form-group">
+                     <label for="message" class="col-sm-2 control-label">Position</label>
+                     <div class="col-sm-10">
+                         
+                         <label class="checkbox-inline">
+                         <input type="checkbox" value="option1"/> Web Developer
+                         </label>
+                         
+                         <label class="checkbox-inline">
+                         <input type="checkbox" value="option2"/> Data Scientist
+                         </label>
+                         
+                         <label class="checkbox-inline">
+                         <input type="checkbox" value="option2"/> Beginner
+                         </label>
+                         
+                         <label class="checkbox-inline">
+                         <input type="checkbox" value="option1"/> Geek who do all the shits ...
+                         </label>                     
+                     </div>
+                  </div> 
+                  
+                  
+                  <div class="form-group">
+                     <label for="message" class="col-sm-2 control-label">What you prefer</label>
+                     <div class="col-sm-10">
+                         
+                         <label class="radio-inline">
+                         <input type="radio" name="radio" value="option1"/> Tea
+                         </label>
+                         
+                         <label class="radio-inline">
+                         <input type="radio" name="radio" value="option2"/> Coffee
+                         </label>
+                     </div>
+                 </div> 
+                  
+                 <div class="form-group">
+                   <label for="how-you-know" class="col-sm-2 control-label">How you find us</label>
+                     <div class="col-sm-6">                        
+                        <select class="form-control">
+                        <option>Friend</option> 
+                        <option>Facebook</option> 
+                        <option>News</option> 
+                        <option>Google Search Results</option> 
+                        </select>
+                     </div>
+                 </div> 
+                  
+                 <br/>
+                 <div class="form-group">                 
+                     <div class="col-sm-offset-2 col-sm-6">                
+                       <button type="submit" class="btn btn-primary">Submit</button> 
+                       <button type="reset" class="btn btn-default">Reset</button> 
+                     </div>
+                 </div> 
+
+
+                 
+              </form>
+              
+          </div>
+       </div>    
+    </div>
+
+    <footer>
+        <hr>
+        <div class="text-center">
+          Copyright &copy; 2022 Brain4ace Education pvt. limited All rights reserved.
+          <a data-toggle="modal" href='#modal-id'>Terms and Conditions</a>
+        </div>
+    
+        <div class="modal fade" id="modal-id">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h2 class="modal-title">Terms and Conditions</h2>
+              </div>
+              <div class="modal-body">
+                <p>We are the team of tech enthusiasts who are determined to make learning easy for everyone.At edureka we
+                  believe in awesome work, to make sure we provide great learning experience to our users.</p>
+                <p>
+                  Learning is meant to be an enjoyable activity and we put our best to turn it into that if you think the
+                  same come <a href="#">join us</a>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    </footer>
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-3.3/js/bootstrap.min.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+
+    <script>
+      window.onload=function(){
+        var location=new google.maps.LatLng(12.98109214881029, 77.69435152973983);
+        var map=new google.maps.Map(document.getElementById("map-container"),{
+          center:location,
+        zoom:20
+        });
+
+        var marker=new google.maps.Marker({
+          position:location,
+          map:map,
+          title:"Edureka"
+        });
+        map.setMarker(marker);
+        
+      };
+
+
+    </script>
+    
+</body>
+</html>
